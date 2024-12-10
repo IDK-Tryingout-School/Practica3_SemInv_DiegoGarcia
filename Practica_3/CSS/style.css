@@ -1,0 +1,97 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://www.pockettactics.com/wp-content/sites/pockettactics/2021/09/Dislyte-1.jpg);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover ;
+    background-position: top ;
+}
+
+.Contenedor{
+    background: rgb(rgb(239,4,4), rgb(11,231,11), rgb(19,19,241));
+    width: 340px;
+    padding: 30px;
+    border-radius: 110px;
+    border: solid 10px;
+    backdrop-filter: blur(40px);
+    box-shadow: 0px 0px 10px 10px rgb(13,234,212);
+    color: rgb(255, 254, 254);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Acceso-titulo{
+    margin: bottom 30px;
+}
+
+.caja-de-entrada{
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.caja-de-entrada input{
+    width: 100%;
+    padding: 10px 16px 10px 38px;
+    border-radius: 1000px;
+    border: solid 6px rgb(254, 254, 254);
+    background: rgba(7, 226, 215, 0.477);
+    outline: none;
+    caret-color: rgb(236,9,9);
+    color:white;
+    font-weight: 500;
+    transition: 0.25s;
+}
+
+.caja-de-entrada input:focus{
+    border:solid 3px rgb (255,255,255,0.25);
+}
+
+.caja-de-entrada input::placeholder{
+    color: rgb(255,255,255,0.75);
+}
+
+.caja-de-entrada input::-ms-reveal{
+    filter: invert(100%);
+}
+
+.caja-de-entrada i{
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 14px;
+    color: rgb(255,255,255,0.75);
+    font-size: 18px;
+    transition: 0.25s;
+}
+
+.caja-de-entrada input+i{
+    color:white;
+}
+
+.recuerdame{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.recuerdame-caja h5{
+    font-weight: normal;
+}
+
+.recuerdame{
+    display: flex;
+    gap: 5px;
+}
